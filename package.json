@@ -1,0 +1,33 @@
+{
+    "name": "static-mock-api",
+    "version": "0.1.0",
+    "description": "Mock api from static JSON files",
+    "main": "lib/static-mock-api.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon node index.js"
+    },
+    "author": "yehor chernyshov",
+    "license": "MIT",
+    "dependencies": {
+        "directory-tree": "^3.0.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "recursive-readdir": "^2.2.2"
+    },
+    "engines": {
+        "node": "^15.x"
+    },
+    "keywords": [
+        "node",
+        "mock-api",
+        "static-mock-api",
+        "api",
+        "fake",
+        "mock",
+        "express"
+    ],
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
