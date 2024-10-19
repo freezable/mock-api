@@ -12,7 +12,7 @@
     "dependencies": {
         "directory-tree": "^3.0.1",
         "dotenv": "^10.0.0",
-        "express": "^4.19.2",
+        "express": "^4.21.1",
         "recursive-readdir": "^2.2.3"
     },
     "engines": {
